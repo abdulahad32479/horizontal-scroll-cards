@@ -32,15 +32,15 @@ const Navbar = () => {
 
         {/* Links */}
         <div className="flex gap-6 font-medium">
-          <a href="#home" className="hover:text-purple-500 transition">
+          <h1 href="#home" className="hover:text-purple-500 transition">
             Home
-          </a>
-          <a href="#explore" className="hover:text-purple-500 transition">
+          </h1>
+          <h1 href="#explore" className="hover:text-purple-500 transition">
             Explore
-          </a>
-          <a href="#about" className="hover:text-purple-500 transition">
+          </h1>
+          <h1 href="#about" className="hover:text-purple-500 transition">
             About
-          </a>
+          </h1>
         </div>
       </div>
     </motion.nav>
